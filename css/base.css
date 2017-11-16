@@ -1,0 +1,151 @@
+/*通用属性*/
+body{
+	font:12px "microsoft yahei",Arial;
+	color:#000;
+	margin:0;
+	padding:0;
+}
+ul,li,dl,dd,p,h1,h2,h3,h4,h5,h6,div{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+input{
+	border:0;
+
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+a{text-decoration:none;}
+
+header{
+	width:100%;
+	height:117px;
+	background:#f7f7f7;
+}
+.header_box{
+	width:980px;
+	height:117px;
+	margin:0 auto;
+	position:relative;
+}
+.header_box>img{
+	float:left;
+	margin-top:28px;
+}
+.header_box>ul{
+	float:right;
+	margin-top:37px;
+}
+.header_box>ul>li{
+	float:left;
+}
+.index>b{
+	display:inline-block;
+	width:13px;
+	height:13px;
+	background:url(../img/icon.png) -655px -45px no-repeat;
+}
+.show>b{
+	display:inline-block;
+	width:13px;
+	height:13px;
+	background:url(../img/icon.png) -650px -69px no-repeat;
+}
+.header_box>ul>li>a{
+	color:#ccc;
+	padding:5px 5px;
+}
+.header_box>ul>li>a:hover{
+	color:#de2f34;
+}
+.nav{
+	width:980px;
+	height:46px;
+	position:absolute;
+	bottom:-23px;
+	left:0px;
+	background:url(../img/navbg.png);
+}
+.nav>ul{
+	float:left;
+}
+.nav>ul>li{
+	width:100px;
+	height:46px;
+	float:left;
+	border-right:1px solid #f7f7f7;
+	text-align:center;
+	line-height:46px;
+}
+.nav>ul>li>a{
+	display:block;
+	font-size:14px;
+	color:#545454;
+}
+.nav>ul>li:nth-child(1){
+	background:url(../img/navhome.gif);
+	border-radius:23px 0 0 23px;
+}
+
+.nav>ul>li:nth-child(1)>a{
+	color:#fff;
+}
+.nav>ul>li:hover{
+	background:#dc2f33;
+}
+.nav>ul>li>a:hover{
+	color:#fff;
+}
+.search{
+	width:235px;
+	height:46px;
+	float:left;
+	margin-left:25px;
+
+}
+.search>input{
+	float:left;
+}
+.search .ipt1{
+	width:177px;
+	height:26px;
+	border:1px solid #ccc;
+	margin-top:9px;
+	border-radius:14px 0 0 14px;
+	padding:0 10px;
+	outline:none;
+}
+.search .ipt2{
+	width:35px;
+	height:28px;
+	background:#ccc;
+	margin-top:9px;
+	border-radius:0 14px 14px 0;
+	background:url(../img/icon.png) -742px -8px;
+	outline:none;
+	cursor:pointer;
+}
+
+
+.footer{
+	width:980px;
+	height:28px;
+	margin:0 auto;
+	padding:10px 0;
+}
+.footer>p{
+	float:left;
+	color:#848484;
+}
+.footer>ul{
+	float:right;
+}
+.footer>ul>li{
+	float:left;
+}
+.footer>ul>li>a{
+	padding:0 10px;
+	color:#848484;
+}
